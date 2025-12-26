@@ -1,0 +1,92 @@
+# ClimateGlobe .gitignore
+
+# System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# IDEs and editors
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.sublime-*
+
+# Build outputs
+target/
+build/
+dist/
+out/
+bin/
+obj/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+env/
+ENV/
+
+# .NET
+*.user
+*.suo
+*.userosscache
+
+# Logs
+logs/
+*.log
+
+# Gradle / Maven
+.gradle/
+.gradle-cache/
+.gradle/
+gradle-app.setting
+build/
+
+# Generic secrets and keys
+.env
+.env.*
+*.secret
+*.key
+*.pem
+*.p12
+secrets.yml
+credentials.yml
+local.properties
+*.local
+
+# AWS / cloud credentials
+.aws/
+*.credentials
+credentials/
+
+# Application configuration files (hide API keys and other secrets)
+application.properties
+application-*.properties
+application.yml
+application-*.yml
+config/application.properties
+config/application-*.properties
+config/application.yml
+config/application-*.yml
+src/**/application.properties
+src/**/application-*.properties
+src/**/application.yml
+src/**/application-*.yml
+
+# Misc
+coverage/
+coverage.xml
+.DS_Store

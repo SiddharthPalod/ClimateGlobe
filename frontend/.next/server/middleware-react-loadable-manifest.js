@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST="{\"app\\\\page.tsx -> ../components/GlobeScene\":{\"id\":\"app\\\\page.tsx -> ../components/GlobeScene\",\"files\":[\"static/chunks/_app-pages-browser_components_GlobeScene_tsx.js\"]}}"
